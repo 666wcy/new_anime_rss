@@ -46,7 +46,7 @@ jobs:
           echo test, and deploy your project.
           docker run -v $GITHUB_WORKSPACE:/src cdrx/pyinstaller-windows:latest 'pyinstaller -F -i favicon.ico  --clean -y --dist ./ --workpath /tmp main.py'
           docker run -v $GITHUB_WORKSPACE:/src cdrx/pyinstaller-linux:latest 'pyinstaller -F --clean -y --dist ./ --workpath /tmp -w main.py'
-          zip -j  onedrive_share_${{ env.RELEASE_VERSION }}.zip $GITHUB_WORKSPACE/main.exe $GITHUB_WORKSPACE/main
+          #zip -j  onedrive_share_${{ env.RELEASE_VERSION }}.zip $GITHUB_WORKSPACE/main.exe $GITHUB_WORKSPACE/main
       #zip -r $GITHUB_WORKSPACE/onedrive_share_${{ env.RELEASE_VERSION }}.zip $GITHUB_WORKSPACE/main.exe $GITHUB_WORKSPACE/linux.exe
         
       - name: Create Release
@@ -59,7 +59,7 @@ jobs:
           release_name: ${{ env.RELEASE_VERSION }}
           draft: false
           prerelease: false
-      - name: Upload Release Asset zip
+      - name: Upload Release Asset Linux
         id: upload-release-asset-bot
         uses: actions/upload-release-asset@v1
         env:
@@ -67,7 +67,19 @@ jobs:
         with:
           upload_url: ${{ steps.create_release.outputs.upload_url }}
           #asset_path: ${{ github.workspace }}/onedrive_share_${{ env.RELEASE_VERSION }}.zip
-          asset_path: onedrive_share_${{ env.RELEASE_VERSION }}.zip
-          asset_name: onedrive_share_${{ env.RELEASE_VERSION }}.zip
+          asset_path: main
+          asset_name: main
+          asset_content_type: application/octet-stream
+          #asset_content_type: application/zip
+      - name: Upload Release Asset win
+        id: upload-release-asset-bot
+        uses: actions/upload-release-asset@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          upload_url: ${{ steps.create_release.outputs.upload_url }}
+          #asset_path: ${{ github.workspace }}/onedrive_share_${{ env.RELEASE_VERSION }}.zip
+          asset_path: main.exe
+          asset_name: main.exe
           #asset_content_type: application/octet-stream
-          asset_content_type: application/zip
+          asset_content_type: application/exe
