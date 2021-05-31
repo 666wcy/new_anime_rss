@@ -1,0 +1,134 @@
+{
+  "QB_username":"",
+  "QB_password": "",
+  "QB_host": "",
+  "QB_port": "",
+  "QB_download": "/downloads/",
+  "Telegram_bot_api": "",
+  "Telegram_user_id":"",
+  "rss_list":
+  [
+    {
+      "name": "战斗员派遣中",
+      "rss_url": "https://bangumi.moe/rss/tags/6065f08eeaf504d0216b7773+548ee2ce4ab7379536f56358+548ee1204ab7379536f56357+5d8b3245306f1a0007bd7aca",
+      "season": "season_1"
+    },
+        
+    {
+      "name": "薇薇 -萤石眼之歌-",
+      "rss_url": "https://bangumi.moe/rss/tags/6065f0a1eaf504d0216b77d3+548ee1204ab7379536f56357+5d8b3245306f1a0007bd7aca",
+      "season": "season_1"
+    },
+        
+    {
+      "name": "七骑士：革命 －英雄的继承者－",
+      "rss_url": "https://bangumi.moe/rss/tags/6065f090eaf504d0216b777d+548ee2ce4ab7379536f56358",
+      "season": "season_1"
+    },
+        
+    {
+      "name": "86-不存在的战区-",
+      "rss_url": "http://dmhy.org/topics/rss/rss.xml?keyword=86&sort_id=0&team_id=604&order=date-desc",
+      "season": "season_1"
+    },
+        
+    {
+      "name": "刮掉胡子的我与捡到的女高中生",
+      "rss_url": "https://bangumi.moe/rss/tags/6065f091eaf504d0216b7783+548ee2ce4ab7379536f56358+5d8b3245306f1a0007bd7aca",
+      "season": "season_1"
+    },
+        
+    {
+      "name": "烧窑的话也要马克杯",
+      "rss_url": "https://bangumi.moe/rss/tags/6065f09ceaf504d0216b77bb+548ee2ce4ab7379536f56358",
+      "season": "season_1"
+    },
+        
+    {
+      "name": "纯白之音",
+      "rss_url": "https://bangumi.moe/rss/tags/6065f09eeaf504d0216b77c5+548ee2ce4ab7379536f56358+5d8b3245306f1a0007bd7aca",
+      "season": "season_1"
+    },
+        
+    {
+      "name": "奇巧计程车",
+      "rss_url": "https://bangumi.moe/rss/tags/6065f093eaf504d0216b778d+548ee2ce4ab7379536f56358",
+      "season": "season_1"
+    },
+        
+    {
+      "name": "SSSS.电光机王",
+      "rss_url": "http://dmhy.org/topics/rss/rss.xml?keyword=ssss.%E7%94%B5%E5%85%89%E6%9C%BA%E7%8E%8B+1080&sort_id=0&team_id=657&order=date-desc",
+      "season": "season_1"
+    },
+        
+    {
+      "name": "圣女魔力无所不能",
+      "rss_url": "https://bangumi.moe/rss/tags/6065f094eaf504d0216b7793+548ee2ce4ab7379536f56358",
+      "season": "season_1"
+    }
+    ,
+        
+    {
+      "name": "关于我转生变成史莱姆这档事 转生史莱姆日记",
+      "rss_url": "https://bangumi.moe/rss/tags/6065f094eaf504d0216b7791+548ee2ce4ab7379536f56358",
+      "season": "season_1"
+    },
+        
+    {
+      "name": "哥斯拉：奇异点",
+      "rss_url": "https://bangumi.moe/rss/tags/6065f098eaf504d0216b77a5+548ee2ce4ab7379536f56358",
+      "season": "season_1"
+    },
+        
+    {
+      "name": "致不灭的你",
+      "rss_url": "https://bangumi.moe/rss/tags/6065f092eaf504d0216b7785+548ee2ce4ab7379536f56358+548ee0ea4ab7379536f56354",
+      "season": "season_1"
+    },
+        
+    {
+      "name": "青梅竹马绝对不会输的恋爱喜剧",
+      "rss_url": "https://bangumi.moe/rss/tags/6065f096eaf504d0216b7799+548ee2ce4ab7379536f56358+5d8b3245306f1a0007bd7aca",
+      "season": "season_1"
+    }
+    ,
+        
+    {
+      "name": "不要欺负我，长瀞同学",
+      "rss_url": "http://dmhy.org/topics/rss/rss.xml?keyword=%E4%B8%8D%E8%A6%81%E6%AC%BA%E8%B4%9F%E6%88%91+1080&sort_id=0&team_id=151&order=date-desc",
+      "season": "season_1"
+    }
+    ,
+        
+    {
+      "name": "影宅",
+      "rss_url": "http://dmhy.org/topics/rss/rss.xml?keyword=%E5%BD%B1%E5%AE%85+1080+&sort_id=0&team_id=151&order=date-desc",
+      "season": "season_1"
+    },
+        
+    {
+      "name": "本田小狼与我",
+      "rss_url": "http://dmhy.org/topics/rss/rss.xml?keyword=%E6%9C%AC%E7%94%B0%E5%B0%8F%E7%8B%BC%E4%B8%8E%E6%88%91+1080&sort_id=0&team_id=151&order=date-desc",
+      "season": "season_1"
+    }
+    ,
+        
+    {
+      "name": "如果究极进化的完全沉浸RPG比现实更垃圾的话",
+      "rss_url": "https://bangumi.moe/rss/tags/6065f096eaf504d0216b779b+548ee2ce4ab7379536f56358",
+      "season": "season_1"
+    }
+    ,
+        
+    {
+      "name": "打了300年的史莱姆，不知不觉就练到了满级",
+      "rss_url": "https://bangumi.moe/rss/tags/548ee2ce4ab7379536f56358+6065f0a1eaf504d0216b77d1+575446452165b9ba0c485d13+55b86e9224180bc3647fea43",
+      "season": "season_1"
+    }
+
+
+
+  ]
+
+}
