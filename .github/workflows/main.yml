@@ -45,8 +45,8 @@ jobs:
           echo Add other actions to build,
           echo test, and deploy your project.
           docker run -v $GITHUB_WORKSPACE:/src cdrx/pyinstaller-windows:latest 'pyinstaller -F -i favicon.ico  --clean -y --dist ./ --workpath /tmp main.py'
-          docker run -v $GITHUB_WORKSPACE:/src cdrx/pyinstaller-linux:latest 'pyinstaller -F --clean -y --dist ./ --workpath /tmp -w linux.py'
-          zip -j  onedrive_share_${{ env.RELEASE_VERSION }}.zip $GITHUB_WORKSPACE/main.exe $GITHUB_WORKSPACE/linux
+          docker run -v $GITHUB_WORKSPACE:/src cdrx/pyinstaller-linux:latest 'pyinstaller -F --clean -y --dist ./ --workpath /tmp -w main.py'
+          zip -j  onedrive_share_${{ env.RELEASE_VERSION }}.zip $GITHUB_WORKSPACE/main.exe $GITHUB_WORKSPACE/main
       #zip -r $GITHUB_WORKSPACE/onedrive_share_${{ env.RELEASE_VERSION }}.zip $GITHUB_WORKSPACE/main.exe $GITHUB_WORKSPACE/linux.exe
         
       - name: Create Release
